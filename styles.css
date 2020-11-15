@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-  width: 0;
+/*  width: 0;*/
 }
 * {
     box-sizing: border-box;
@@ -10,11 +10,6 @@
 
 /*     Cover     */
 
-span {
-    background-color: #000000;
-    color: #ffffff;
-    
-}
 #cover {
     background: url('web/WhatsApp%20Image%202020-11-09%20at%205.45.54%20PM.jpeg') center center no-repeat;
     background-size: 100% 100%;
@@ -214,6 +209,10 @@ span {
 
 
 /*     Brands     */
+#brands {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
 #brands img {
     width: 100%;
 }
@@ -249,6 +248,87 @@ span {
 }
 
 
+
+/*     Why Choose Us     */
+
+#chooseUs {
+    text-align: center;
+    color: #000000;
+    font-weight: 500;
+}
+#chooseUs .subheading {
+    /*    text-align: center;*/
+    font-size: 2.5rem;
+/*    border: 1px solid black;*/
+/*    line-height: 2;*/
+    color: #000000;
+    font-weight: bold;
+    margin-top: 5vw;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.cards > img {
+    width: 4rem;
+    height: auto;
+    margin-bottom: 2vw;
+    margin-top: 3rem;
+}
+.card-title {
+    font-size: 1.2rem;
+}
+
+
+
+/*     Footer     */
+#footer {
+    background-color: #2ca7a2;
+    color: #ffffff;
+    margin-top: 10vw;
+}
+#footer1 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 2vw 2vw 2vw 2vw;
+}
+#footer2 {
+    border: 1px solid #ffffff;
+    padding: 2vw 2vw 2vw 2vw;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.column > div {
+    padding-bottom: 2vw;
+}
+.column a {
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer2 img {
+    width: 20rem;
+    height: auto;
+}
+#footer3 {
+    color: #000000;
+    padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+}
+#footer3 > span {
+    color: #ffffff;
+}
+
+
+
+/*     Media Links     */
+#mediaLinks {
+    background-color: #000000;
+    padding: 1vw 1vw 1vw 1vw;
+}
+#mediaLinks img {
+    width: 2rem;
+    height: auto;
+    background-color: #ffffff;
+}
 
 
 
