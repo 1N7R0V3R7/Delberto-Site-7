@@ -82,14 +82,16 @@ span {
     text-align: center;
     font-size: 3rem;
 /*    border: 1px solid black;*/
-    line-height: 2.5;
+/*    line-height: 2.5;*/
+    margin-top: 2vw;
 }
 #ourservices .subheading2 {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
 /*    border: 1px solid black;*/
-    line-height: 2.5;
+/*    line-height: 2.5;*/
+    margin-top: 2vw;
 }
 
 #servicePart {
