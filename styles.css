@@ -7,6 +7,10 @@
     padding: 0px;
 }
 
+/*     Navbar    */
+
+
+
 
 /*     Cover     */
 
@@ -78,7 +82,7 @@
     font-size: 3rem;
 /*    border: 1px solid black;*/
 /*    line-height: 2.5;*/
-    margin-top: 2vw;
+    margin-top: 2rem;
 }
 #ourservices .subheading2 {
     text-align: center;
@@ -86,7 +90,7 @@
     font-weight: bold;
 /*    border: 1px solid black;*/
 /*    line-height: 2.5;*/
-    margin-top: 2vw;
+    margin-top: 2rem;
 }
 
 #servicePart {
@@ -99,9 +103,7 @@
 /*    border: 1px solid black;*/
 }
 #serviceSubPart {
-    line-height: 3;
-    margin-top: 1.5vw;
-
+    margin-top: 1.5rem;
 }
 .serviceTitles {
     font-size: 1.5rem;
@@ -124,13 +126,13 @@
     padding-right: 0px;
 }
 #reseller .subheading1 {
-/*    text-align: center;*/
+    text-align: center;
     font-size: 2.5rem;
 /*    border: 1px solid black;*/
 /*    line-height: 2;*/
     color: #000000;
     font-weight: bold;
-    margin-top: 5vw;
+    margin-top: 5rem;
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 0px;
@@ -142,8 +144,7 @@
     background-color: #fcefba;
 }
 #resellerSubBody {
-    line-height: 3;
-    margin-top: 1.5vw;
+    margin-top: 1.5rem;
 }
 .resellermainpic {
     width: 80%;
@@ -164,23 +165,21 @@
 
 
 #doorshipping .subheading1 {
-    /*    text-align: center;*/
+    text-align: center;
     font-size: 2.5rem;
 /*    border: 1px solid black;*/
-/*    line-height: 2;*/
     color: #000000;
     font-weight: bold;
-    margin-top: 5vw;
+    margin-top: 5rem;
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 0px;
     padding-right: 0px;
 }
 #doorshipping .subheading2 {
-    /*    text-align: center;*/
+    text-align: center;
     font-size: 2.5rem;
 /*    border: 1px solid black;*/
-/*    line-height: 2;*/
     color: #000000;
     font-weight: bold;
     margin-right: 0px;
@@ -201,17 +200,15 @@
     line-height: 1.1;
 }
 #doorshippingSubPart {
-    line-height: 3;
-    margin-top: 2vw;
-
+    margin-top: 2rem;
 }
 
 
 
 /*     Brands     */
 #brands {
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 #brands img {
     width: 100%;
@@ -230,7 +227,7 @@
 /*    line-height: 2;*/
     color: #000000;
     font-weight: bold;
-    margin-top: 1.5vw;
+    margin-top: 1.5rem;
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 0px;
@@ -266,7 +263,7 @@
 /*    line-height: 2;*/
     color: #000000;
     font-weight: bold;
-    margin-top: 5vw;
+    margin-top: 5rem;
     margin-right: 0px;
     margin-left: 0px;
     padding-left: 0px;
