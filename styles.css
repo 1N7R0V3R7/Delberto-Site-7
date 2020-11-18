@@ -7,7 +7,27 @@
     padding: 0px;
 }
 
+
+
 /*     Navbar    */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+}
+nav a:hover {
+    color: #fcefba;
+}
+nav .btn {
+    background-color: #eb5523;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.5rem;    
+}
+nav .btn:hover {
+    background-color: #29a741;
+    color: #ffffff;
+}
 
 
 
@@ -306,8 +326,11 @@
     color: #ffffff;
 }
 #footer2 img {
-    width: 20rem;
+    width: 25vw;
     height: auto;
+}
+#footer2 center {
+    font-size: 2vw;
 }
 #footer3 {
     color: #000000;
