@@ -110,7 +110,6 @@ nav ul {
 
 
 /*     Our Services        */
-
 #ourservices .subheading1 {
     text-align: center;
     font-size: 2.7rem;
@@ -281,6 +280,17 @@ nav ul {
     height: 20rem;
 }
 
+
+
+/*     Customer Speaks     */
+#customerSpeaks .subheading {
+    margin-top: 5rem;
+    font-size: 2.2rem;
+    color: #000000;
+}
+.image img {
+    border-radius: 50%;
+}
 
 /*     Why Choose Us     */
 
