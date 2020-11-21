@@ -12,11 +12,14 @@
 /*     Navbar    */
 .navbar {
     background-color: #2ca7a2;
-    min-height: 10vw;
+    min-height: 7%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 nav img {
-    width: 10vw;
-    min-height: 10vw;
+    width: 45%;
+    height: 45%;
 }
 nav a{
     text-decoration: none;
@@ -33,6 +36,7 @@ nav a:hover {
 nav ul {
     text-align: center;
     margin-right: 2vw;
+    margin-left: -7vw;
 }
 .dropdown-menu {
     background-color: #ffffff;
