@@ -12,14 +12,11 @@
 /*     Navbar    */
 .navbar {
     background-color: #2ca7a2;
-    min-height: 7%;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+    min-height: 5%;
 }
 nav img {
-    width: 45%;
-    height: 45%;
+    width: 40%;
+    height: 40%;
 }
 nav a{
     text-decoration: none;
@@ -36,7 +33,7 @@ nav a:hover {
 nav ul {
     text-align: center;
     margin-right: 2vw;
-    margin-left: -7vw;
+    margin-left: -8vw;
 }
 .dropdown-menu {
     background-color: #ffffff;
@@ -116,14 +113,13 @@ nav ul {
 
 #ourservices .subheading1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.7rem;
 /*    border: 1px solid black;*/
-/*    line-height: 2.5;*/
     margin-top: 2rem;
 }
 #ourservices .subheading2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
 /*    border: 1px solid black;*/
 /*    line-height: 2.5;*/
@@ -164,7 +160,7 @@ nav ul {
 }
 #reseller .subheading1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 /*    border: 1px solid black;*/
 /*    line-height: 2;*/
     color: #000000;
@@ -203,7 +199,7 @@ nav ul {
 
 #doorshipping .subheading1 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 /*    border: 1px solid black;*/
     color: #000000;
     font-weight: bold;
@@ -215,7 +211,7 @@ nav ul {
 }
 #doorshipping .subheading2 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 /*    border: 1px solid black;*/
     color: #000000;
     font-weight: bold;
@@ -259,7 +255,7 @@ nav ul {
 }
 #working .subheading {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 /*    border: 1px solid black;*/
 /*    line-height: 2;*/
     color: #000000;
@@ -295,7 +291,7 @@ nav ul {
 }
 #chooseUs .subheading {
     /*    text-align: center;*/
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 /*    border: 1px solid black;*/
 /*    line-height: 2;*/
     color: #000000;
