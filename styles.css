@@ -10,25 +10,38 @@
 
 
 /*     Navbar    */
-nav a {
+.navbar {
+    background-color: #2ca7a2;
+    min-height: 10vw;
+}
+nav img {
+    width: 10vw;
+    min-height: 10vw;
+}
+nav a{
     text-decoration: none;
     color: #ffffff;
-    font-size: 2rem;
+    margin-left: 1.2vw;
+    font-size: 1.5rem;
 }
 nav a:hover {
-    color: #fcefba;
+    color: #fcefcb;
 }
-nav .btn {
+.navbar-toggler {
+    color: #ffffff;
+}
+nav ul {
+    text-align: center;
+    margin-right: 2vw;
+}
+.dropdown-menu {
+    background-color: #ffffff;
+}
+#loginButton {
     background-color: #eb5523;
+    color: #ffffff;
     border-radius: 10px;
-    color: #ffffff;
-    font-size: 1.5rem;    
 }
-nav .btn:hover {
-    background-color: #29a741;
-    color: #ffffff;
-}
-
 
 
 
