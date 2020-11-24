@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Oswald', sans-serif;
+    
 }
 
 
@@ -328,6 +328,7 @@ nav ul {
     justify-content: center;
 }
 .quote1 {
+    font-family: 'Gothic A1', sans-serif;
     color: #94c83e;
     font-size: 200px;
 /*    border: 1px solid black;*/
@@ -335,6 +336,7 @@ nav ul {
     height: 80px;
 }
 .quote2 {
+    font-family: 'Gothic A1', sans-serif;
     color: #149988;
     font-size: 200px;
 /*    border: 1px solid black;*/
