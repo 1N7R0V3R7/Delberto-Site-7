@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -276,8 +277,8 @@ nav ul {
     font-size: 1.2rem;
 }
 #working iframe {
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
 }
 
 
@@ -285,14 +286,65 @@ nav ul {
 /*     Customer Speaks     */
 #customerSpeaks .subheading {
     margin-top: 5rem;
-    font-size: 2.2rem;
+    font-size: 3rem;
     color: #000000;
 }
-.image img {
+#card {
+    margin-top: 5rem;
+}
+.image1 img {
     border-radius: 50%;
+    border: 7px solid #94c83e;
+    width: 100%;
+    height: auto;
+}
+.image2 img {
+    border-radius: 50%;
+    border: 7px solid #149988;
+    width: 100%;
+    height: auto;
+}
+.name1 {
+    color: #94c83e;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-top: 5vw;
+}
+.name2 {
+    color: #149988;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-top: 5vw;
+}
+.designation {
+    color: #606970;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.description {
+    font-weight: 500; 
+    font-size: 1.2rem;
+    justify-content: center;
+}
+.quote1 {
+    color: #94c83e;
+    font-size: 200px;
+/*    border: 1px solid black;*/
+    line-height: 1;
+    height: 80px;
+}
+.quote2 {
+    color: #149988;
+    font-size: 200px;
+/*    border: 1px solid black;*/
+    line-height: 1;
+    height: 80px;
 }
 
+
+
 /*     Why Choose Us     */
+
 
 #chooseUs {
     text-align: center;
