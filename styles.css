@@ -104,8 +104,8 @@ nav ul {
 }
 #process img {
 /*    border: 1px solid black;*/
-    height: 13vw;
-    width: 13vw;
+    height: auto;
+    width: 60%;
 }
 
 
