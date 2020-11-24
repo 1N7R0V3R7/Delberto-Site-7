@@ -346,11 +346,10 @@ nav ul {
 .buttons {
     border-radius: 50%;
     background-color: #0b4d41;
-    width: 5rem;
-    height: 5rem;
-    vertical-align: middle;
-    margin-top: 2.5rem;
-    padding: 1.8rem;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 1.25rem;
 }
 
 /*     Why Choose Us     */
