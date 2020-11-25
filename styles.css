@@ -22,8 +22,8 @@ nav img {
 nav a{
     text-decoration: none;
     color: #ffffff;
-    margin-left: 1.2vw;
     font-size: 1.5rem;
+    margin-left: 1.2vw;
 }
 nav a:hover {
     color: #fcefcb;
@@ -39,13 +39,17 @@ nav ul {
 .dropdown-menu {
     background-color: #ffffff;
 }
+.dropdown-item {
+    margin-left: 0px;
+}
 #loginButton {
     background-color: #eb5523;
     color: #ffffff;
     border-radius: 10px;
 }
-
-
+#loginButton:hover {
+    background-color: #5cb85c;
+}
 
 /*     Cover     */
 
@@ -180,7 +184,7 @@ nav ul {
     margin-top: 1.5rem;
 }
 .resellermainpic {
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 .resellerTitles {
@@ -203,7 +207,6 @@ nav ul {
 /*    border: 1px solid black;*/
     color: #000000;
     font-weight: bold;
-    margin-top: 5rem;
     margin-right: 0px;
     margin-left: -3.5vw;
     padding-left: 0px;
@@ -403,7 +406,7 @@ nav ul {
     font-size: 1.1rem;
 }
 .column > div {
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
 }
 .column a {
     text-decoration: none;
@@ -419,6 +422,7 @@ nav ul {
 #footer3 {
     color: #000000;
     padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+    font-weight: 400;
 }
 #footer3 > span {
     color: #ffffff;
@@ -430,12 +434,23 @@ nav ul {
 #mediaLinks {
     background-color: #000000;
     padding: 1vw 1vw 1vw 1vw;
+    text-align: center;
 }
 #mediaLinks img {
-    width: 2rem;
-    height: auto;
+    width: 1.5rem;
+    height: 1.5rem;
     background-color: #ffffff;
+/*    border-radius: 50%;*/
+    margin-top: 0.75rem;
 }
+.links {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
 
 
 
