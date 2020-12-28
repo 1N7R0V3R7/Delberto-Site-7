@@ -19,7 +19,7 @@ nav img {
     width: 40%;
     height: 40%;
 }
-nav a{
+nav a {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.5rem;
@@ -497,12 +497,11 @@ nav ul {
 	padding-bottom: 1rem;
 }
 
-#joinAsSupplier, #seller, #startStore {
+#joinAsSupplier, #seller {
 	background-color: #e5e5e3;
 }
 #joinAsSupplier #line, #seller #line, #startStore #line {
-	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin: 1rem 0px 1rem 0px;
 }
 #joinAsSupplier input, #seller input, #startStore input {
@@ -513,7 +512,7 @@ nav ul {
 	border-radius: 5px;
 	border-color: lightgray;
 }
-#joinAsSupplier button, #seller button, #startStore button {
+#joinAsSupplier button, #seller button {
 	background-color: #eb5523;
 	color: #ffffff;
 	border-radius: 10px;
@@ -521,7 +520,15 @@ nav ul {
 	font-size: 1.5rem;
 	margin-top: 3rem;
 }
-#joinAsSupplier button:hover, #seller button:hover, #startStore button:hover {
+#startStore button {
+	background-color: #28a745;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0.5rem 4rem 0.5rem 4rem;
+	font-size: 1.5rem;
+	margin-top: 3rem;
+}
+#joinAsSupplier button:hover, #seller button:hover {
 	background-color: #28a745;	
 }
 #sellingProducts {
@@ -731,13 +738,27 @@ nav ul {
 #dashboard .card li {
 	margin-bottom: 1rem;
 }
-
-
-
-
-
-
-
+#becomeSeller #intro {
+	position: relative;
+	top: 12vw;
+}
+#startStore .heading {
+	font-size: 2.5rem;
+}
+#dashboard .card,#dashboard .card-title	, #becomeSeller .card {
+	transition: 0.25s;
+}
+#dashboard .card:hover .card-title {
+	background-color: #eb5523;
+	color: #ffffff;
+}
+#becomeSeller .card {
+	background-color: #eb5523;
+	color: #ffffff;
+}
+#becomeSeller {
+	margin-top: 2rem;
+}
 
 
 
