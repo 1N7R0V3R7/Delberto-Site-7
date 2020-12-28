@@ -9,3 +9,8 @@
 [1110/102415.713:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Rohil Varma\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\9cd3e828-971b-454e-8aa7-7f8dfc9adca2: The system cannot find the path specified. (0x3)
 [1110/125403.154:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [1110/152546.462:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1221/182718.378:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1226/162520.182:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1226/181310.284:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1227/135153.511:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1227/175422.793:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

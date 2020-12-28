@@ -454,6 +454,299 @@ nav ul {
     background-color: white;
     
 }
+#supplierCover {
+	background-image: url(web/delbertosite.jpg);
+	background-position: center;
+	background-size: 100% 100%;
+	height: 50vw;
+}
+#supplierCover .row div {
+	margin-top: 10vw;
+	margin-left: 5vw;
+}
+#supplierCover p {
+	color: #000000;
+	font-size: 3.5vw;
+}
+#supplierCover button {
+    background-color: #eb5523;
+    color: #ffffff;
+    border-radius: 10px;
+	font-size: 2vw;
+}
+#supplierCover button:hover {
+    background-color: #5cb85c;
+}
+#features {
+    background-color: #eb5523;
+	color: #ffffff;
+}
+#joinAsSupplier, #features, #seller, #startStore {
+	padding: 4rem;
+}
+#joining .heading, #becomeSeller .heading {
+	margin-bottom: 3rem;
+	font-size: 3rem;
+}
+#features ul {
+	padding-left: 20px;
+	font-size: 1.2rem;
+	list-style: url(web/icon2.png);
+}
+#features li {
+	padding-bottom: 1rem;
+}
+
+#joinAsSupplier, #seller, #startStore {
+	background-color: #e5e5e3;
+}
+#joinAsSupplier #line, #seller #line, #startStore #line {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin: 1rem 0px 1rem 0px;
+}
+#joinAsSupplier input, #seller input, #startStore input {
+	padding-left: 20px;
+	font-size: 1.2rem;
+	height: 3rem;
+	width: 100%;
+	border-radius: 5px;
+	border-color: lightgray;
+}
+#joinAsSupplier button, #seller button, #startStore button {
+	background-color: #eb5523;
+	color: #ffffff;
+	border-radius: 10px;
+	padding: 0.5rem 4rem 0.5rem 4rem;
+	font-size: 1.5rem;
+	margin-top: 3rem;
+}
+#joinAsSupplier button:hover, #seller button:hover, #startStore button:hover {
+	background-color: #28a745;	
+}
+#sellingProducts {
+	margin-top: 4rem;
+	margin-bottom: -5vw;
+}
+#sellingProducts .heading {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+#sellingProducts .heading span {
+	color: #eb5523;
+	font-weight: bold;
+}
+#sellingProducts .row div {
+	padding: 1rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 1.3;
+}
+#sellingProducts .row .heading {
+	position: relative;
+	font-size: 2.5rem;
+}
+#sellingProducts .heading::after {
+	content: '';
+	height: 8px;
+	width: 30%;
+	position: absolute;
+	background: #343a40;
+	left: calc(50% - 15%);
+	bottom: 0;
+	border-radius: 10px;
+	display: inline-block;
+}
+#sellingProducts .underline::after {
+	content: '';
+	height: 8px;
+	width: 30%;
+	position: absolute;
+	background: #343a40;
+	bottom: 2rem;
+	border-radius: 10px;
+	display: inline-block;
+}
+@media screen and (max-width: 576px) {
+	#joining .heading, #becomeSeller .heading {
+		font-size: 2.5rem;
+		text-align: center;
+	}
+	#joinAsSupplier #line, #seller #line, #startStore #line {
+		font-size: 1.2rem;
+	}
+	#joinAsSupplier input, #seller input, #startStore input {
+		padding-left: 20px;
+		font-size: 1.2rem;
+		height: 3rem;
+		width: 100%;
+		border-radius: 5px;
+		border-color: lightgray;
+	}
+	#joinAsSupplier, #features, #seller, #startStore {
+		padding: 3rem;
+	}
+	
+}
+
+
+#becomeSeller .title {
+	margin-top: 3rem;
+	font-size: 2.5rem;
+}
+#becomeSeller .title span {
+	color: orange;
+}
+#becomeSeller .title p {
+	color: #6c757d;
+	margin: 3rem 3rem 3rem 3rem;
+	font-size: 15px;
+}
+#seller #line:nth-child(6) input {
+	height: 10rem;
+}
+#supplierLogin, #adminLogin{
+	margin: 5rem 0px 5rem 0px;
+}
+#supplierLogin .container {
+	box-shadow: 1px 1px 8px #888888;
+}
+#supplierLogin #icon {
+	background-color: #2ca7a2;
+	color: #fcefcb;
+	padding: 2rem 0px 3rem 0px;
+}
+#supplierLogin #icon p {
+	font-size: 3rem;
+	font-weight: bold;
+}
+#supplierLogin svg {
+	width: 15rem;
+	height: auto;
+}
+
+#supplierLogin #loginForm .heading {
+	font-weight: bold;
+	font-size: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+}
+#loginForm input {
+	width: 100%;
+	border-radius: 5px;
+	border-color: white;
+	padding-left: 5px;
+}
+#loginForm button {
+	background-color: #2ca7a2;
+	color: #ffffff;
+	border-radius: 25px;
+	width: 15rem;
+	font-size: 1.5rem;
+	transition: 0.25s;
+}
+#loginForm button:hover, #login button:hover {
+	background-color: #28a745;
+}
+#loginForm #line {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+@media screen and (max-width: 576px) {
+	#supplierLogin #icon p {
+		font-size: 2rem;
+	}
+	#supplierLogin svg {
+		width: 7.5rem;
+		height: auto;
+	}
+	#supplierLogin #loginForm .heading {
+		margin-bottom: 3rem;
+	}
+}
+#loginForm div:nth-child(4) input, #login div:nth-child(3) input {
+	width: 1rem;
+	margin-top: 6px;
+	margin-left: 15px;
+}
+#loginForm div:nth-child(6) {
+	margin-bottom: 2rem;
+}
+#loginForm div:nth-child(6) a {
+	font-weight: bold;
+	color: #2ca7a2;
+	text-decoration: underline;
+	padding-left: 15px;
+}
+#adminLogin .heading {
+	background-color: #2ca7a2;
+	color: #fff;
+	padding: 2rem 3.5rem 2rem 3.5rem;
+/*	margin-bottom: 3rem;*/
+}
+#adminLogin .heading span {
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+#adminLogin #line {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+#adminLogin #line input {
+	border-radius: 10px;
+	width: 80%;
+	padding-left: 10px;
+}
+#login button {
+	background-color: #2ca7a2;
+	color: #ffffff;
+	border-radius: 25px;
+	width: 10rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+#login div:nth-child(3) {
+	margin: 2rem 1rem 1rem 1rem;
+}
+#login {
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+#dashboard .card-title {
+	font-size: 2rem;
+	color: orange;
+	padding: 2rem 4rem 2rem 4rem;
+}
+#dashboard .card {
+	margin-top: 2rem;
+	color: #6c757d;
+}
+#dashboard .card ul {
+	padding-left: 3rem;
+	padding-right: 1rem;
+}
+#dashboard .card li {
+	margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
