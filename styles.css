@@ -405,6 +405,9 @@ nav ul {
     font-weight: 400;
     font-size: 1.1rem;
 }
+#footer2 a {
+	text-decoration: none;
+}
 .column > div {
     padding-bottom: 1vw;
 }
@@ -759,8 +762,51 @@ nav ul {
 #becomeSeller {
 	margin-top: 2rem;
 }
-
-
+#aboutUsCover {
+	background-image: url(web/aboutUsCoverPage.jpg);
+	background-position: center;
+	height: 50vw;
+	background-repeat: no-repeat;
+}
+#aboutUsCover > .container {
+	color: #ffffff;
+	font-size: 6rem;
+	font-weight: bold;
+	padding-top: 12vw;
+}
+@media screen and (max-width: 576px) {
+	#aboutUsCover > .container {
+		font-size: 2.5rem;
+		padding-top: 5vw;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+	#aboutUsCover > .container {
+		font-size: 4rem;
+		padding-top: 10vw;
+	}
+}
+#overview, #employee {
+	margin-top: 3rem;
+	font-size: 1.1rem;
+}
+#employee .font-weight-bold {
+	color: #94c83e;
+	font-size: 3rem;
+}
+#employee img:nth-child(odd) {
+	width: 15rem;
+	height: auto;
+	border: 7px solid #94c83e;
+}
+#employee .card-title {
+	color: #94c83e;
+	font-weight: bold;
+	font-size: 2rem;
+}
+#employee .card-text {
+	padding: 1rem 2rem 0px 2rem;
+}
 
 
 
